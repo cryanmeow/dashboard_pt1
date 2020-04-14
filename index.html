@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontaw/css/all.css" />
+    <title>meow</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <div class="logo">
+          <p>Meow Design</p>
+        </div>
+        <div class="profile">
+          <img src="img/clipart1717870.png" alt="" />
+          <p>Cryan Fajri</p>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <i class="fas fa-angle-double-right"></i>
+              <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+              <i class="fas fa-dollar-sign"></i><a href="cost.html">Cost</a>
+            </li>
+            <li><i class="fas fa-bell"></i><a href="">Appliances</a></li>
+            <li><i class="fas fa-key"></i><a href="">Usage by rooms</a></li>
+            <li><i class="fas fa-cloud"></i><a href="">Emission</a></li>
+          </ul>
+        </div>
+        <div class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <a href="">Log Out</a>
+        </div>
+      </div>
+      <div id="tabbed-content">
+        <div class="right panel active">
+          <div class="top">
+            <h1>Energy Dashboard</h1>
+            <div>
+              <div class="dropdown">
+                <div class="select">
+                  <span>Select Last Day</span>
+                  <i class="fa fa-chevron-left"></i>
+                </div>
+                <input type="hidden" name="gender" />
+                <ul class="dropdown-menu">
+                  <li id="30days">last 30 days</li>
+                  <li id="20days">last 20 days</li>
+                  <li id="10days">last 10 days</li>
+                </ul>
+              </div>
+
+              <span class="msg"></span>
+              <button id="pinky">
+                <i class="fas fa-bell"></i> 2 new updates
+              </button>
+            </div>
+          </div>
+          <div class="content">
+            <h1>Hello Admin</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
